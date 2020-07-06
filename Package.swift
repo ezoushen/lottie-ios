@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "Lottie",
             dependencies: [],
-            path: "lottie-ios/Classes"),
+            path: "lottie-ios/Classes",
+            publicHeadersPath: "Headers"),
     ]
 )
